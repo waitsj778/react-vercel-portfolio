@@ -1,0 +1,9 @@
+{
+    "env": {
+        "accesskeyid": "@accesskeyid",           
+        "secretaccesskey": "@secretaccesskey",
+        "region": "@region",
+        "bucket": "@bucket",    
+        "profilepic": "@profilepic"
+    }
+}

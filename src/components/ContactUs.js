@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Icon } from 'rsuite';
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -14,8 +15,11 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
+                <h4><Icon icon="envelope-o" />&nbsp;&nbsp; 
+                  {resumeData.private_email}
+                </h4>
+                <h4><Icon icon="phone" />&nbsp;&nbsp;
+                  {resumeData.phone}
                 </h4>
               </div>
             </aside>

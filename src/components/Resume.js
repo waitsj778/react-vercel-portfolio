@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import InViewMonitor from 'react-inview-monitor';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -68,10 +69,6 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
    				<div className="bars">
 
    				   <ul className="skills">
@@ -79,8 +76,13 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                        <InViewMonitor
+                          classNameNotInView='before-inview'
+                          classNameInView={`bar-expand ${item.skillname.toLowerCase()}`}
+                          repeatOnInView={true}
+                        >
+                        </InViewMonitor>
+                        <em>{item.skillname}</em>
                       </li>
                     )
                   })

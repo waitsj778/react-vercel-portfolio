@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import posed from 'react-pose'
+const Box = posed.div({
+  hoverable: true,
+  init: { scale: 1 },
+  hover: { scale: 1.6 } 
+})
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -12,7 +18,7 @@ export default class Footer extends Component {
                 return(
                   <li>
                     <a href={item.url}>
-                    <i className={item.className} />
+                    <Box><i className={item.className} /></Box>
                     </a>
                   </li>
                 )
