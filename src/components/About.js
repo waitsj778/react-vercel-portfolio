@@ -8,11 +8,9 @@ export default class About extends Component {
       super(props);
       this.state = {
       resume: 'https://i.pinimg.com/originals/90/80/60/9080607321ab98fa3e70dd24b2513a20.gif'
-      // resume: process.env.loading
       };
       (async () => {
          const res = await axios.get('https://sanghyunhong.now.sh/api/gets3?resumeUrl');
-         // const res = await axios.get(process.env.api)
          const resume = res.data.resumeUrl;
          return resume;
       })().then(resume => this.setState({resume:resume}))
