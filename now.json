@@ -5,8 +5,6 @@
         "region": "@region",
         "bucket": "@bucket",    
         "profilepic": "@profilepic",
-        "samplepdf": "@samplepdf",
-        "api": "@api",
-        "loading": "@loading"
+        "samplepdf": "@samplepdf"
     }
 }
