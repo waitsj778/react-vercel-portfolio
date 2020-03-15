@@ -4,6 +4,7 @@
         "secretaccesskey": "@secretaccesskey",
         "region": "@region",
         "bucket": "@bucket",    
-        "profilepic": "@profilepic"
+        "profilepic": "@profilepic",
+        "samplepdf": "@samplepdf"
     }
 }
