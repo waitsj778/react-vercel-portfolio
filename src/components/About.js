@@ -15,7 +15,7 @@ export default class About extends Component {
          return profilepic;
       })().then(profilepic => this.setState({profilepic:profilepic}))
    }
-  render() {
+   render() {
     return (
       <section id="about">
          <div className="row">
@@ -56,6 +56,7 @@ export default class About extends Component {
 
                      <h2>Documents</h2>
                      <p>
+                     <a href={this.state.profilepic} download="test-downlaod.jpg"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>
                      <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button>&nbsp;&nbsp;
                      <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
        				   </p>
