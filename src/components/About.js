@@ -7,13 +7,13 @@ export default class About extends Component {
    constructor(props) {
       super(props);
       this.state = {
-      profilepic: 'https://media1.tenor.com/images/d6cd5151c04765d1992edfde14483068/tenor.gif?itemid=5662595'
+      resume: 'https://i.pinimg.com/originals/90/80/60/9080607321ab98fa3e70dd24b2513a20.gif'
       };
       (async () => {
-         const res = await axios.get('https://sanghyunhong.now.sh/api/gets3?imagesrc');
-         const profilepic = res.data.imagesrc;
-         return profilepic;
-      })().then(profilepic => this.setState({profilepic:profilepic}))
+         const res = await axios.get('https://sanghyunhong.now.sh/api/gets3?resumeUrl');
+         const resume = res.data.resumeUrl;
+         return resume;
+      })().then(resume => this.setState({resume:resume}))
    }
    render() {
     return (
@@ -22,7 +22,7 @@ export default class About extends Component {
 
             <div className="three columns">
                
-               <img className="profile-pic" src={this.state.profilepic} alt="#"></img>
+               <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img>
 
             </div>
 
@@ -56,8 +56,7 @@ export default class About extends Component {
 
                      <h2>Documents</h2>
                      <p>
-                     <a href={this.state.profilepic} download="sample.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
-                     {/* <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button>&nbsp;&nbsp; */}
+                     <a href={this.state.resume} download="sample.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
                      <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
        				   </p>
                   </div>

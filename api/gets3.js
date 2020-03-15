@@ -8,10 +8,10 @@ var s3 = new AWS.S3();
 var params = {
         Bucket: process.env.bucket,
         // Key: process.env.profilepic,
-        Key: process.env.samplepdf, // test for download pdf
+        Key: process.env.samplepdf,
         Expires: 60
 };
 module.exports = async (req, res) => {
-        const imagesrc = await s3.getSignedUrlPromise('getObject', params);
-        res.status(200).json({imagesrc: imagesrc})
+        const resumeUrl = await s3.getSignedUrlPromise('getObject', params);
+        res.status(200).json({resumeUrl: resumeUrl})
 }
