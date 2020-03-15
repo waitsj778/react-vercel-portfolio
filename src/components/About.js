@@ -7,10 +7,12 @@ export default class About extends Component {
    constructor(props) {
       super(props);
       this.state = {
-      resume: 'https://i.pinimg.com/originals/90/80/60/9080607321ab98fa3e70dd24b2513a20.gif'
+      // resume: 'https://i.pinimg.com/originals/90/80/60/9080607321ab98fa3e70dd24b2513a20.gif'
+      resume: process.env.loading
       };
       (async () => {
-         const res = await axios.get('https://sanghyunhong.now.sh/api/gets3?resumeUrl');
+         // const res = await axios.get('https://sanghyunhong.now.sh/api/gets3?resumeUrl');
+         const res = await axios.get(process.env.api)
          const resume = res.data.resumeUrl;
          return resume;
       })().then(resume => this.setState({resume:resume}))
@@ -56,7 +58,7 @@ export default class About extends Component {
 
                      <h2>Documents</h2>
                      <p>
-                     <a href={this.state.resume} download="sample.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
+                     <a href={this.state.resume} download="myresume.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
                      <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
        				   </p>
                   </div>
