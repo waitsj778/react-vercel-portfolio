@@ -7,7 +7,7 @@ export default class About extends Component {
    constructor(props) {
       super(props);
       this.state = {
-      resume: 'https://i.pinimg.com/originals/90/80/60/9080607321ab98fa3e70dd24b2513a20.gif'
+      resume: 'https://octodex.github.com/images/blacktocats.png'
       };
       (async () => {
          const res = await axios.get('https://sanghyunhong.now.sh/api/gets3?resumeUrl');
