@@ -7,7 +7,6 @@ var AWS = require('aws-sdk');
 var s3 = new AWS.S3();
 var params = {
         Bucket: process.env.bucket,
-        // Key: process.env.profilepic,
         Key: process.env.samplepdf,
         Expires: 60
 };
