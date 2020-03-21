@@ -7,8 +7,16 @@ let resumeData = {
     "roleDescription": "I love OSS, kubernetes and HashiCorp products",
     "certifications":[
       {
+        "title":"CKAD: Certified Kubernetes Application Developer",
+        "image":"https://portal.linuxfoundation.org/sites/all/themes/lftraining_kid/ckad_cert.png",
+        "foundation":"The Linux Foundation",
+        "from":"2020年3月",
+        "expire":"2023年3月",
+        "certid":"CKA-2000-005057-0100"
+      },
+      {
         "title":"CKA: Certified Kubernetes Administrator",
-        "image":"https://reviewnprep.com/blog/wp-content/uploads/2020/02/Kubernetes-1024x1000.png",
+        "image":"https://portal.linuxfoundation.org/sites/all/themes/lftraining_kid/logo.png",
         "foundation":"The Linux Foundation",
         "from":"2020年1月",
         "expire":"2023年1月",
