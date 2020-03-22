@@ -8,7 +8,7 @@ let resumeData = {
     "certifications":[
       {
         "title":"CKAD: Certified Kubernetes Application Developer",
-        "image":"https://portal.linuxfoundation.org/sites/all/themes/lftraining_kid/ckad_cert.png",
+        "image":"https://www.creationline.com/wp-content/uploads/2019/01/ckad.png",
         "foundation":"The Linux Foundation",
         "from":"2020年3月",
         "expire":"2023年3月",
@@ -16,7 +16,7 @@ let resumeData = {
       },
       {
         "title":"CKA: Certified Kubernetes Administrator",
-        "image":"https://portal.linuxfoundation.org/sites/all/themes/lftraining_kid/logo.png",
+        "image":"https://www.creationline.com/wp-content/uploads/2019/01/cka.png",
         "foundation":"The Linux Foundation",
         "from":"2020年1月",
         "expire":"2023年1月",
