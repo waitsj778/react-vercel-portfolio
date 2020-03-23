@@ -12,7 +12,7 @@ let resumeData = {
         "foundation":"The Linux Foundation",
         "from":"2020年3月",
         "expire":"2023年3月",
-        "certid":"CKA-2000-005057-0100"
+        "certid":"CKAD-2000-003342-0100"
       },
       {
         "title":"CKA: Certified Kubernetes Administrator",
