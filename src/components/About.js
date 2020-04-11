@@ -63,7 +63,7 @@ export default class About extends Component {
                      <h2>Documents</h2>
                      <p>
                      <a href={this.state.resume} download="resume.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
-                     <a href={this.state.workingcareer} download="workingcareer.pdf"></a><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
+                     <a href={this.state.workingcareer} download="workingcareer.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button></a>
        				   </p>
                   </div>
                </div>
