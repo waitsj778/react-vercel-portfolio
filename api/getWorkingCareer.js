@@ -7,7 +7,7 @@ var AWS = require('aws-sdk');
 var s3 = new AWS.S3();
 var params = {
         Bucket: process.env.bucket,
-        Key: process.env.samplepdf,
+        Key: process.env.workingcareerpdf,
         Expires: 60
 };
 module.exports = async (req, res) => {
