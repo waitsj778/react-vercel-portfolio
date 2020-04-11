@@ -14,7 +14,8 @@ export default class About extends Component {
          const res = await axios.get('https://sanghyunhong.now.sh/api/getResume?resumeUrl');
          const resume = res.data.resumeUrl;
          return resume;
-      })().then(resume => this.setState({resume:resume})),
+      })().then(resume => this.setState({resume:resume}))
+      
       (async () => {
          const res = await axios.get('https://sanghyunhong.now.sh/api/getWorkingCareer?resumeUrl');
          const workingcareer = res.data.resumeUrl;
