@@ -10,16 +10,13 @@ export default class About extends Component {
       resume: 'https://octodex.github.com/images/blacktocats.png',
       workingcareer: 'https://octodex.github.com/images/blacktocats.png'
       };
-      (async () => {
-         const res = await axios.get('https://sanghyunhong.now.sh/api/getResume?resumeUrl');
-         const resume = res.data.resumeUrl;
-         return resume;
-      })().then(resume => this.setState({resume:resume}))
-      (async () => {
-         const res = await axios.get('https://sanghyunhong.now.sh/api/getWorkingCareer?resumeUrl');
-         const workingcareer = res.data.resumeUrl;
-         return workingcareer;
-      })().then(workingcareer => this.setState({workingcareer:workingcareer}))
+      this.getSignedUrl('https://sanghyunhong.now.sh/api/getResume').then(resume => this.setState({resume:resume}));
+      this.getSignedUrl('https://sanghyunhong.now.sh/api/getWorkingCareer').then(workingcareer => this.setState({workingcareer:workingcareer}));
+   }
+   async getSignedUrl(apiEndpoint) {
+      const res = await axios.get(apiEndpoint);
+      const signedUrl = res.data.resumeUrl
+      return signedUrl;
    }
    render() {
     return (
