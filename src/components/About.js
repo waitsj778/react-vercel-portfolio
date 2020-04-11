@@ -8,7 +8,7 @@ export default class About extends Component {
       super(props);
       this.state = {
       resume: 'https://octodex.github.com/images/blacktocats.png',
-      workingcareer: 'https://octodex.github.com/images/blacktocats.png'
+      // workingcareer: 'https://octodex.github.com/images/blacktocats.png'
       };
       (async () => {
          const res = await axios.get('https://sanghyunhong.now.sh/api/getResume?resumeUrl');
@@ -16,11 +16,11 @@ export default class About extends Component {
          return resume;
       })().then(resume => this.setState({resume:resume}))
       
-      (async () => {
-         const res = await axios.get('https://sanghyunhong.now.sh/api/getWorkingCareer?resumeUrl');
-         const workingcareer = res.data.resumeUrl;
-         return workingcareer;
-      })().then(workingcareer => this.setState({workingcareer:workingcareer}))
+      // (async () => {
+      //    const res = await axios.get('https://sanghyunhong.now.sh/api/getWorkingCareer?resumeUrl');
+      //    const workingcareer = res.data.resumeUrl;
+      //    return workingcareer;
+      // })().then(workingcareer => this.setState({workingcareer:workingcareer}))
    }
    render() {
     return (
