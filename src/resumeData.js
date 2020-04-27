@@ -124,7 +124,7 @@ let resumeData = {
         "CompanyName":"Japan Third Party Co.",
         "specialization":"Backend Engineer",
         "MonthOfLeaving":"March 2019 -",
-        "YearOfLeaving":"August 2020",
+        "YearOfLeaving":"now",
       }
     ],
     "skillsDescription":"I Can Use These Tools & Languages",
