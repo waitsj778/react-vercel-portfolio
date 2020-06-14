@@ -124,12 +124,13 @@ let resumeData = {
         "CompanyName":"Japan Third Party Co.",
         "specialization":"IT Infrastructure Engineer",
         "MonthOfLeaving":"March 2019 -",
-        "YearOfLeaving":"now",
+        "YearOfLeaving":"August 2020",
       },
       {
         "CompanyName":"Cloud Ace Inc",
         "specialization":"SRE Engineer",
-        "MonthOfLeaving":"September 2019 -"
+        "MonthOfLeaving":"September 2020 -",
+        "YearOfLeaving":"now"
       }
     ],
     "skillsDescription":"I Can Use These Tools & Languages",
@@ -141,7 +142,7 @@ let resumeData = {
         "skillname":"AWS CloudFormation / Vagrant / Ansible"
       },
       {
-        "skillname":"Python / Ruby / Java / JavaScript"
+        "skillname":"Python / Go / TypeScript / JavaScript"
       }
     ]
   }
