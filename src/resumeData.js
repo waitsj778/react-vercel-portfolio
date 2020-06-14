@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"",
     "name": "Sanghyun Hong",
-    "role": "Backend Engineer",
+    "role": "SRE Engineer",
     "private_email":" jayhong778@gmail.com",
     "phone":" +81 80-6880-6659",
     "roleDescription": "I love OSS, kubernetes and HashiCorp products",
@@ -122,9 +122,15 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Japan Third Party Co.",
-        "specialization":"Backend Engineer",
+        "specialization":"IT Infrastructure Engineer",
         "MonthOfLeaving":"March 2019 -",
         "YearOfLeaving":"August 2020",
+      },
+      {
+        "CompanyName":"Cloud Ace Inc",
+        "specialization":"SRE Engineer",
+        "MonthOfLeaving":"September 2019 -",
+        // "YearOfLeaving":"August 2020",
       }
     ],
     "skillsDescription":"I Can Use These Tools & Languages",
