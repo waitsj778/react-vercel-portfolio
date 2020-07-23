@@ -136,13 +136,13 @@ let resumeData = {
     "skillsDescription":"I Can Use These Tools & Languages",
     "skills":[
       {
-        "skillname":"Kubernetes / Docker / Openshift / Terraform"
+        "skillname":"Infrastructure as Code"
       },
       {
-        "skillname":"AWS CloudFormation / Vagrant / Ansible"
+        "skillname":"CI / CD"
       },
       {
-        "skillname":"Python / Go / TypeScript / JavaScript"
+        "skillname":"Monitoring and Managing Logs"
       }
     ]
   }

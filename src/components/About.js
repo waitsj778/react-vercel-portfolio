@@ -37,12 +37,8 @@ export default class About extends Component {
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Infrastructure as Code</Tag>
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Automation</Tag>
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Designing Distributed System</Tag>
-               <Tag style={{background: "#2492D1", color: "#FFFFFF"}}>Docker</Tag>
-               <Tag style={{background: "#4F8EF5", color: "#FFFFFF"}}>GCP</Tag>
-               <Tag style={{background: "#FF9901", color: "#FFFFFF"}}>AWS</Tag>
-               <Tag style={{background: "#5F43E9", color: "#FFFFFF"}}>Terraform</Tag>
-               <Tag style={{background: "#4279F4", color: "#FFFFFF"}}>Kubernetes</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Ansible</Tag>
+               <Tag style={{background: "#000000", color: "#FFFFFF"}}>GCP</Tag>
+               <Tag style={{background: "#000000", color: "#FFFFFF"}}>AWS</Tag>
                </TagGroup>
                </p>
                <div className="row">
