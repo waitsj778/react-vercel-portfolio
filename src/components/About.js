@@ -37,20 +37,12 @@ export default class About extends Component {
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Infrastructure as Code</Tag>
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Automation</Tag>
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Designing Distributed System</Tag>
-               <Tag style={{background: "#EE0100", color: "#FFFFFF"}}>Openshift</Tag>
                <Tag style={{background: "#2492D1", color: "#FFFFFF"}}>Docker</Tag>
+               <Tag style={{background: "#4F8EF5", color: "#FFFFFF"}}>GCP</Tag>
                <Tag style={{background: "#FF9901", color: "#FFFFFF"}}>AWS</Tag>
                <Tag style={{background: "#5F43E9", color: "#FFFFFF"}}>Terraform</Tag>
-               <Tag style={{background: "#00BC7F", color: "#FFFFFF"}}>Nomad</Tag>
-               <Tag style={{background: "#1C1E25", color: "#FFFFFF"}}>Vault</Tag>
                <Tag style={{background: "#4279F4", color: "#FFFFFF"}}>Kubernetes</Tag>
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>Ansible</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Film</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Jazz</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Soul</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Vinyl</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Book</Tag>
-               <Tag style={{background: "#000000", color: "#FFFFFF"}}>Travel</Tag>
                </TagGroup>
                </p>
                <div className="row">
