@@ -343,30 +343,30 @@ ul#nav li.current a { color: #F06000; }
    width: 0%;
 }
 
-@-moz-keyframes python {
+@-moz-keyframes monitoring {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 30%;  }
 }
 
-@-moz-keyframes kubernetes {
+@-moz-keyframes infrastructure {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes aws {
+@-moz-keyframes ci {
    0%   { width: 0px;  }
    100% { width: 70%;  }
  }
 
-@-webkit-keyframes python {
+@-webkit-keyframes monitoring {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 30%;  }
 }
 
-@-webkit-keyframes kubernetes {
+@-webkit-keyframes infrastructure {
    0%   { width: 0px;  }
    100% { width: 90%;  }
 }
-@-webkit-keyframes aws {
+@-webkit-keyframes ci {
    0%   { width: 0px;  }
    100% { width: 70%;  }
 }

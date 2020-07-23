@@ -139,7 +139,7 @@ let resumeData = {
         "skillname":"Infrastructure as Code"
       },
       {
-        "skillname":"CI / CD"
+        "skillname":"CI/CD"
       },
       {
         "skillname":"Monitoring and Managing Logs"
