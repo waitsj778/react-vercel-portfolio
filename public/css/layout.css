@@ -324,20 +324,20 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.python {
-  	width: 50%;
-  	-moz-animation: python 3s ease;
-  	-webkit-animation: python 3s ease;
+.monitoring {
+  	width: 30%;
+  	-moz-animation: monitoring 3s ease;
+  	-webkit-animation: monitoring 3s ease;
 }
-.kubernetes {
+.infrastructure {
    width: 90%;
-  	-moz-animation: kubernetes 3s ease;
-  	-webkit-animation: kubernetes 3s ease;
+  	-moz-animation: infrastructure 3s ease;
+  	-webkit-animation: infrastructure 3s ease;
 }
-.aws {
+.ci {
    width: 70%;
-  	-moz-animation: aws 3s ease;
-  	-webkit-animation: aws 3s ease;
+  	-moz-animation: ci 3s ease;
+  	-webkit-animation: ci 3s ease;
 }
 .before-inview {
    width: 0%;
