@@ -1,0 +1,32 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.637.0",
+    "axios": "^0.21.1",
+    "micro": "^9.3.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-inview-monitor": "^2.3.0",
+    "react-modal": "^3.11.2",
+    "react-pose": "^4.0.10",
+    "react-scripts": "2.1.1",
+    "rsuite": "^4.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

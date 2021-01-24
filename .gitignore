@@ -24,7 +24,3 @@ yarn-error.log*
 
 **/.idea/*
 **/.now/*
-
-now.json
-package.json
-package-lock.json
