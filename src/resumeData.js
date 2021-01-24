@@ -7,6 +7,14 @@ let resumeData = {
     "roleDescription": "I love OSS, kubernetes and HashiCorp products",
     "certifications":[
       {
+        "title":"Associate Cloud Engineer",
+        "image":"https://miro.medium.com/max/1000/1*T59fnCvp71WqNeuytWGorA.png",
+        "foundation":"Google Cloud",
+        "from":"2020年10月",
+        "expire":"2022年10月",
+        "certid":"24747749"
+      },
+      {
         "title":"CKAD: Certified Kubernetes Application Developer",
         "image":"https://www.creationline.com/wp-content/uploads/2019/01/ckad.png",
         "foundation":"The Linux Foundation",
