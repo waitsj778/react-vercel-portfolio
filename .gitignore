@@ -22,4 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.now
+**/.idea/*
+**/.now/*
+
+now.json
+package.json
+package-lock.json
