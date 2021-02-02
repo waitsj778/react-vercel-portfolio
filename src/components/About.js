@@ -3,6 +3,7 @@ import { Icon } from 'rsuite';
 import { Tag, TagGroup } from 'rsuite';
 import { Button } from 'rsuite';
 import axios from 'axios';
+import ScriptTag from 'react-script-tag';
 export default class About extends Component {
    constructor(props) {
       super(props);
@@ -23,7 +24,12 @@ export default class About extends Component {
       <section id="about">
          <div className="row">
             <div className="three columns">
-               <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img>
+               <ScriptTag isHydration={true} type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer>
+                  <div className="profile-pic" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="ja_JP" data-type="horizontal" data-theme="dark" data-vanity="sanghyun-hong-8188b718b">
+                     <a class="LI-simple-link" href='https://jp.linkedin.com/in/sanghyun-hong-8188b718b?trk=profile-badge'>SANGHYUN HONG</a>
+                  </div>
+               </ScriptTag>
+               {/* <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img> */}
             </div>
 
             <div className="nine columns main-col">
