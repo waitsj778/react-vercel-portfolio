@@ -131,14 +131,14 @@ let resumeData = {
       {
         "CompanyName":"Japan Third Party Co.",
         "specialization":"IT Infrastructure Engineer",
-        "MonthOfLeaving":"March 2019 -",
-        "YearOfLeaving":"August 2020",
+        "MonthOfLeaving":"23th March 2019 -",
+        "YearOfLeaving":"31th August 2020",
       },
       {
         "CompanyName":"Cloud Ace Inc",
         "specialization":"SRE Engineer",
-        "MonthOfLeaving":"September 2020 -",
-        "YearOfLeaving":"January 2021"
+        "MonthOfLeaving":"1st September 2020 -",
+        "YearOfLeaving":"30th January 2021"
       }
     ],
     "skillsDescription":"I Can Use These Tools & Languages",
