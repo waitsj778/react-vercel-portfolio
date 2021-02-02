@@ -30,7 +30,7 @@ export default class About extends Component {
                   <a class="LI-simple-link" href='https://jp.linkedin.com/in/sanghyun-hong-8188b718b?trk=profile-badge'>SANGHYUN HONG</a>
                </div> */}
                {/* horizontal badge */}
-               <div class="LI-profile-badge" data-version="v1" position="relative" data-width="180px" data-height="180px" data-locale="ja_JP" data-type="horizontal" data-theme="dark" data-vanity="sanghyun-hong-8188b718b">
+               <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="ja_JP" data-type="horizontal" data-theme="dark" data-vanity="sanghyun-hong-8188b718b">
                   <a class="LI-simple-link" href='https://jp.linkedin.com/in/sanghyun-hong-8188b718b?trk=profile-badge'>SANGHYUN HONG</a>
                </div>
                {/* profile image */}
