@@ -97,11 +97,6 @@ let resumeData = {
     ],
     "socialLinks":[
         {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/sanghyun-hong-8188b718b/",
-          "className":"fa fa-linkedin"
-        },
-        {
           "name":"github",
           "url":"https://github.com/waitsj778",
           "className":"fa fa-github"
