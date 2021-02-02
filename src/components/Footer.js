@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import posed from 'react-pose'
+import posed from 'react-pose';
 import ScriptTag from 'react-script-tag';
 const Box = posed.div({
   hoverable: true,
