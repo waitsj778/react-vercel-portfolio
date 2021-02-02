@@ -24,9 +24,11 @@ export default class About extends Component {
          <div className="row">
 
             <div className="three columns">
-               
-               <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img>
-
+            <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+               <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="ja_JP" data-type="horizontal" data-theme="dark" data-vanity="sanghyun-hong-8188b718b">
+                  <a class="LI-simple-link" href='https://jp.linkedin.com/in/sanghyun-hong-8188b718b?trk=profile-badge'>SANGHYUN HONG</a>
+               </div>
+               {/* <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img> */}
             </div>
 
             <div className="nine columns main-col">
