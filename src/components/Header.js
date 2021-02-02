@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import posed from 'react-pose';
+import ScriptTag from 'react-script-tag';
 const Box = posed.div({
   hoverable: true,
   init: { scale: 1 },
@@ -26,9 +27,17 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{resumeData.name}</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}・{resumeData.roleDescription}
-               </h3>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}・{resumeData.roleDescription}</h3>
                <hr/>
+               <ScriptTag isHydration={true} type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer />
+               {/* vertical badge */}
+               {/* <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="ja_JP" data-type="vertical" data-theme="light" data-vanity="sanghyun-hong-8188b718b">
+                  <a class="LI-simple-link" href='https://jp.linkedin.com/in/sanghyun-hong-8188b718b?trk=profile-badge'>SANGHYUN HONG</a>
+               </div> */}
+               {/* horizontal badge */}
+               <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="ja_JP" data-type="horizontal" data-theme="dark" data-vanity="sanghyun-hong-8188b718b">
+                  <a class="LI-simple-link" href='https://jp.linkedin.com/in/sanghyun-hong-8188b718b?trk=profile-badge'>SANGHYUN HONG</a>
+               </div>
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
