@@ -34,7 +34,7 @@ export default class About extends Component {
             </div>
 
             <div className="nine columns main-col">
-               <h2>Likes</h2>
+               <h2>Skills</h2>
                <p>
                <TagGroup>
                <Tag style={{background: "#000000", color: "#FFFFFF"}}>OSS</Tag>
@@ -57,6 +57,40 @@ export default class About extends Component {
                      <a href={this.state.workingcareer} download="workingcareer.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button></a> */}
        				   </p>
                   </div>
+
+                  <div className="columns contact-details">
+
+                     <h2>XXX</h2>
+                     <p>
+                     <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button>&nbsp;&nbsp;
+                     <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
+                     {/* <a href={this.state.resume} download="resume.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
+                     <a href={this.state.workingcareer} download="workingcareer.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button></a> */}
+       				   </p>
+                  </div>
+
+                  <div className="columns contact-details">
+
+                     <h2>XXXXXX</h2>
+                     <p>
+                     <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button>&nbsp;&nbsp;
+                     <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
+                     {/* <a href={this.state.resume} download="resume.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
+                     <a href={this.state.workingcareer} download="workingcareer.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button></a> */}
+       				   </p>
+                  </div>
+
+                  <div className="columns contact-details">
+
+                     <h2>XXXXXXXXX</h2>
+                     <p>
+                     <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button>&nbsp;&nbsp;
+                     <Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button>
+                     {/* <a href={this.state.resume} download="resume.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> resume</Button></a>&nbsp;&nbsp;
+                     <a href={this.state.workingcareer} download="workingcareer.pdf"><Button style={{background: "#000000", color: "#FFFFFF"}}><Icon icon="file-pdf-o" onClick={this.open} style={{color: "#DB0909"}} /> working career</Button></a> */}
+       				   </p>
+                  </div>   
+
                </div>
             </div>
          </div>
