@@ -26,13 +26,14 @@ export default class About extends Component {
             <div className="three columns">
                <ScriptTag isHydration={true} type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer />
                {/* vertical badge */}
-               <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="ja_JP" data-type="vertical" data-theme="dark" data-vanity="">
-                  <a class="LI-simple-link">SANGHYUN HONG</a>
+               <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="ja_JP" data-type="vertical" data-theme="dark" data-vanity="sanghyunhong87">
+                  <a class="LI-simple-link" href="www.linkedin.com/in/sanghyunhong87?trk=profile-badge">SANGHYUN HONG</a>
                </div>
                {/* using jpg for profile image */}
                {/* <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img> */}
             </div>
-
+               // <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="your_user_name" data-version="v1">
+               // <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/your_profile?trk=profile-badge">Bryan Schroeder</a></div>
             <div className="nine columns main-col">
                <h2>Skills</h2>
                <p>
