@@ -96,11 +96,6 @@ let resumeData = {
       }
     ],
     "socialLinks":[
-        // {
-        //   "name":"linkedin",
-        //   "url":"https://www.linkedin.com/in/sanghyun-hong-8188b718b/",
-        //   "className":"fa fa-linkedin"
-        // },
         {
           "name":"github",
           "url":"https://github.com/waitsj778",
@@ -114,12 +109,6 @@ let resumeData = {
       ],
     "email":"jayhong778@gmail.com",
     "education":[
-      // {
-      //   "UniversityName":"Pro-industry technical school of Tokyo, Shinjuku",
-      //   "specialization":"High Information Processing Department",
-      //   "MonthOfPassing":"March",
-      //   "YearOfPassing":"2019",
-      // },
       {
         "UniversityName":"Hongik University, Seoul",
         "specialization":"Department of Architectural Engineering",
@@ -129,14 +118,20 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Cloud Ace Inc",
+        "specialization":"SRE Engineer",
+        "MonthOfLeaving":"1st April 2016 -",
+        "YearOfLeaving":"22th March 2019 -"
+      },
+      {
         "CompanyName":"Google",
-        "specialization":"IT Infrastructure Engineer",
+        "specialization":"SRE Engineer",
         "MonthOfLeaving":"23th March 2019 -",
         "YearOfLeaving":"31th August 2021",
       },
       {
-        "CompanyName":"Cloud Ace Inc",
-        "specialization":"SRE Engineer",
+        "CompanyName":"IBM",
+        "specialization":"Technical Account Manager",
         "MonthOfLeaving":"1st September 2021 -",
         "YearOfLeaving":"Present"
       }
