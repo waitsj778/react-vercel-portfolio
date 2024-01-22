@@ -32,8 +32,6 @@ export default class About extends Component {
                {/* using jpg for profile image */}
                {/* <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img> */}
             </div>
-               // <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="your_user_name" data-version="v1">
-               // <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/your_profile?trk=profile-badge">Bryan Schroeder</a></div>
             <div className="nine columns main-col">
                <h2>Skills</h2>
                <p>
