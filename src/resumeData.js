@@ -121,7 +121,7 @@ let resumeData = {
         "CompanyName":"Cloud Ace Inc",
         "specialization":"SRE Engineer",
         "MonthOfLeaving":"1st April 2016 -",
-        "YearOfLeaving":"22th March 2019 -"
+        "YearOfLeaving":"22th March 2019"
       },
       {
         "CompanyName":"Google",
