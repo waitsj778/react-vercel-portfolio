@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"",
     "name": "Sanghyun Hong",
-    "role": "SRE Engineer",
+    "role": "Technical Account Manager",
     "private_email":" jayhong778@gmail.com",
     "phone":" +81 80-6880-6659",
     "roleDescription": "I love OSS, kubernetes and HashiCorp products",
