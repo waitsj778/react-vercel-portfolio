@@ -7,7 +7,6 @@
         "profilepic": "@profilepic",
         "samplepdf": "@samplepdf",
         "resumepdf": "@resumepdf",
-        "workingcareerpdf": "@workingcareerpdf",
-        "NODE_OPTIONS": "--openssl-legacy-provider"
+        "workingcareerpdf": "@workingcareerpdf"
     }
 }
