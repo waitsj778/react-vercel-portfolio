@@ -96,11 +96,11 @@ let resumeData = {
       }
     ],
     "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/sanghyun-hong-8188b718b/",
-          "className":"fa fa-linkedin"
-        },
+        // {
+        //   "name":"linkedin",
+        //   "url":"https://www.linkedin.com/in/sanghyun-hong-8188b718b/",
+        //   "className":"fa fa-linkedin"
+        // },
         {
           "name":"github",
           "url":"https://github.com/waitsj778",
@@ -114,31 +114,31 @@ let resumeData = {
       ],
     "email":"jayhong778@gmail.com",
     "education":[
-      {
-        "UniversityName":"Pro-industry technical school of Tokyo, Shinjuku",
-        "specialization":"High Information Processing Department",
-        "MonthOfPassing":"March",
-        "YearOfPassing":"2019",
-      },
+      // {
+      //   "UniversityName":"Pro-industry technical school of Tokyo, Shinjuku",
+      //   "specialization":"High Information Processing Department",
+      //   "MonthOfPassing":"March",
+      //   "YearOfPassing":"2019",
+      // },
       {
         "UniversityName":"Hongik University, Seoul",
-        "specialization":"School of Electronic & Electrical Engineering",
+        "specialization":"Department of Architectural Engineering",
         "MonthOfPassing":"February",
         "YearOfPassing":"2012",
       }
     ],
     "work":[
       {
-        "CompanyName":"Japan Third Party Co.",
+        "CompanyName":"Google",
         "specialization":"IT Infrastructure Engineer",
         "MonthOfLeaving":"23th March 2019 -",
-        "YearOfLeaving":"31th August 2020",
+        "YearOfLeaving":"31th August 2021",
       },
       {
         "CompanyName":"Cloud Ace Inc",
         "specialization":"SRE Engineer",
-        "MonthOfLeaving":"1st September 2020 -",
-        "YearOfLeaving":"30th January 2021"
+        "MonthOfLeaving":"1st September 2021 -",
+        "YearOfLeaving":"Present"
       }
     ],
     "skillsDescription":"I Can Use These Tools & Languages",
