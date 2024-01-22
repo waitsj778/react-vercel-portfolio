@@ -127,12 +127,12 @@ let resumeData = {
         "CompanyName":"Google",
         "specialization":"SRE Engineer",
         "MonthOfLeaving":"23th March 2019 -",
-        "YearOfLeaving":"31th August 2021",
+        "YearOfLeaving":"31th August 2022",
       },
       {
         "CompanyName":"IBM",
         "specialization":"Technical Account Manager",
-        "MonthOfLeaving":"1st September 2021 -",
+        "MonthOfLeaving":"1st September 2022 -",
         "YearOfLeaving":"Present"
       }
     ],
