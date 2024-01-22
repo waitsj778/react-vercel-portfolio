@@ -27,9 +27,9 @@ export default class About extends Component {
                <ScriptTag isHydration={true} type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer />
                {/* vertical badge */}
                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="ja_JP" data-type="vertical" data-theme="dark" data-vanity="sanghyunhong87">
-                  <a class="LI-simple-link" href="">SANGHYUN HONG</a>
+                  <a class="LI-simple-link" href="#">SANGHYUN HONG</a>
                </div>
-               {/*"www.linkedin.com/in/sanghyunhong87?trk=profile-badge"*/}
+               {/*href="www.linkedin.com/in/sanghyunhong87?trk=profile-badge"*/}
                {/* using jpg for profile image */}
                {/* <img className="profile-pic" src="../images/profilepic.jpg" alt="#"></img> */}
             </div>
